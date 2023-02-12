@@ -2,17 +2,17 @@ const User = require("../src/User");
 // User tests here
 describe("User class tests", () => {
   // test username
-  test("valid username entered", () => {
+  test("username property is valid", () => {
     const user = new User("testUsername", "testPassword", 32);
     expect(user.username).toBe("testUsername");
   });
   // test password
-  test("valid password entered", () => {
+  test("password property is valid", () => {
     const user = new User("testUsername", "testPassword", 32);
     expect(user.password).toBe("testPassword");
   });
   // test age
-  test("valid age entered", () => {
+  test("age property is valid", () => {
     const user = new User("testUsername", "testPassword", 32);
     expect(user.age).toBe("32");
   });
