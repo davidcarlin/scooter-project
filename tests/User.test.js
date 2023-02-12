@@ -14,7 +14,7 @@ describe("User class tests", () => {
   // test age
   test("age property is valid", () => {
     const user = new User("testUsername", "testPassword", 32);
-    expect(user.age).toBe("32");
+    expect(user.age).toBe(32);
   });
   // test login
   test("when correct password is entered, user is logged in", () => {
