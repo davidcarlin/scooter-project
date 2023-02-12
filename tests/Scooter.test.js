@@ -3,6 +3,7 @@ const User = require("../src/User");
 
 // Scooter class tests
 describe("Scooter class tests", () => {
+  
   // test station
   test("scooter has a station", () => {
     let station = "Belfast";
